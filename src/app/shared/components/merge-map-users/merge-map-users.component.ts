@@ -58,4 +58,6 @@ export class MergeMapUsersComponent implements OnInit {
         this.userArr = res
       });
   }
+
+  
 }

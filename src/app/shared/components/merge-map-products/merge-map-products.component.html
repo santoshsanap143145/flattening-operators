@@ -1,1 +1,18 @@
-<p>merge-map-products works!</p>
+<div class="row my-5">
+  <div class="col-12 mb-5" *ngFor="let prod of productArr">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-4">
+            <img [src]="prod.image" class="prodImg" [alt]="prod.title" title="prod.title" />
+          </div>
+          <div class="col-md-6">
+            <h2>{{prod.title}}</h2>
+            <p>{{prod.review}}</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

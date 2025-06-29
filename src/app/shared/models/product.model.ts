@@ -6,9 +6,17 @@ export interface Iproduct {
   category: string;
   image: string;
   rating: Irating;
+  review: string;
 }
 
 export interface Irating {
   rate: number;
   count: number;
+}
+
+export interface Ipost {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
 }
