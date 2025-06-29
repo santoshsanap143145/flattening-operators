@@ -10,9 +10,5 @@ export class AppComponent implements OnInit {
   title = 'flattening-operators';
 
   ngOnInit(): void {
-    // from([1, 2, 3, 4]).subscribe(num => {
-    //   console.log(num);
-      
-    // })
   }
 }
