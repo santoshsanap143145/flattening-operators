@@ -1,0 +1,16 @@
+.movieImg {
+  height: 300px;
+  object-fit: cover;
+}
+
+.truncate-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+// .truncate-multiline::-webkit-scrollbar {
+//   display: none; /* Chrome, Safari, Opera */
+// }
